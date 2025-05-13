@@ -1,0 +1,11 @@
+h1 {
+    font-size: 15vh;
+}
+
+body {
+    background-color: rgb(58, 220, 161);
+}
+
+#logo {
+    scale: 30%;
+}
