@@ -1,1 +1,20 @@
-wwwwwwwwwww
+wwwwwwwwww<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrar</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="../styles/javascripts/assets/img/CWB+grosso.png" alt="Logo" class="logo">
+    <h1>Entrar</h1>
+    <form>
+      <p>📧 <input type="email" placeholder="Digite o seu email"></p>
+      <p>🔒 <input type="password" placeholder="Digite a sua senha"></p>
+    </form>
+  </div>
+</body>
+</html>
+
+../assets/CWB+grosso.png
