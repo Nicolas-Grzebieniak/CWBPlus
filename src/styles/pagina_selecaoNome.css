@@ -1,3 +1,57 @@
-.separacao{
-    border: 200vh black;
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+    font-size: 300%;
+}
+
+.separacao {
+    padding: 20vh;
+}
+
+#botaoAleatorio1 {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#botaoAleatorio2 {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#imgDado1 {
+    width: 32px;
+    height: auto;
+}
+#imgDado2 {
+    width: 32px;
+    height: auto;
+}
+
+#botaoCriarConta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6abb43;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.separacaoMenor {
+    padding: 2vh;
 }
