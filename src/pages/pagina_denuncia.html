@@ -7,14 +7,25 @@
     <title>Denuncia</title>
 </head>
 <body>
-    <center><h1>Denuncia</h1>
-    <input type="text" placeholder="Digite o local" name="Digite o Local" id="local">
+    <center><h1>Denuncia</h1> 
+    <input type="text" placeholder="Digite o local" id="local">
     <br>
     <select name="tipo" id="tipo">
         <option>Assalto</option>
         <option>Furto</option>
+        <option>Agressão</option>
+        <option>Assédio Sexual</option>
         <option>Acidente de Trânsito</option>
-        <option>Assédio sexual</option>
+    </select>
+    <br>
+    <input type="date" placeholder="Data da ocorrência" id="data" max="2025-12-31">
+    <br>
+    <input type="time" placeholder="Hora da ocorrência" id="hora">
+    <br>
+    <img src="../assets/icon_descricao.png" alt="ícone de um lápis" id="icon_descricao"/>
+    <label for="descricao">Descrição</label>
+    <input type="text" placeholder="Descreva a ocorrência" name="descricao" id="descricao">
+    
 
     </center>
     </select>
