@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+/* Config para tablet com largura de até 1024px */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 30px;
+  }
+
+  #imgIconPerfil {
+    height: 25vh;
+    width: auto;
+  }
+
+  .gradeAvatares {
+    display: grid;
+    grid-column: 2;
+    margin: 3vh;
+  }
+
+  .gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
+  }
+}
+
+/* Config para celulares com largura de até 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  #imgIconPerfil {
+    height: 25vh;
+    width: auto;
+  }
+
+  .gradeAvatares {
+    display: grid;
+    grid-column: 2;
+    margin: 3vh;
+  }
+
+  .gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
+  }
+}
+
+/* Config para celulares muito pequenos com largura de até 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  #imgIconPerfil {
+    height: 25vh;
+    width: auto;
+  }
+
+  .gradeAvatares {
+    display: grid;
+    grid-column: 2;
+    margin: 3vh;
+  }
+
+  .gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
+  }
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.separacao {
+    padding: 10vh;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+    font-size: 300%;
+}
+
+#imgIconPerfil {
+    height: 25vh;
+    width: auto;
+}
+
+.gradeAvatares {
+    display: grid;
+    grid-column: 3;
+    margin: 3vh;
+}
+
+.gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
+}
+
+.separacaoMenor {
+    padding: 2vh;
+}
+
+#botaoAleatorio {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#imgDado {
+    width: 32px;
+    height: auto;
+}
+
+#botaoCriarConta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6abb43;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
