@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+/* Config para tablet com largura de até 1024px */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 30px;
+  }
+}
+
+/* Config para celulares com largura de até 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 20px;
+  }
+}
+
+/* Config para celulares muito pequenos com largura de até 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+    padding: 15px;
+  }
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+    font-size: 300%;
+}
+
+.separacao {
+    padding: 10vh;
+}
+
+#botaoAleatorio1 {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#botaoAleatorio2 {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#imgDado1 {
+    width: 32px;
+    height: auto;
+}
+#imgDado2 {
+    width: 32px;
+    height: auto;
+}
+
+#botaoCriarConta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6abb43;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.separacaoMenor {
+    padding: 2vh;
+}
