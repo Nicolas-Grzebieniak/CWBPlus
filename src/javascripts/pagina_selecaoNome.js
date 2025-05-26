@@ -13,3 +13,8 @@ const nomesPrimeiro = [
     const nomeSorteado = lista[Math.floor(Math.random() * lista.length)];
     document.getElementById(idInput).value = nomeSorteado;
   }
+
+  function salvarNome() {
+    const nome = document.getElementById("nomeUsuario").value;
+    localStorage.setItem("nomeDoUsuario", nome);
+    }

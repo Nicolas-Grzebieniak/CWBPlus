@@ -6,6 +6,23 @@
     font-size: 16px;
     padding: 30px;
   }
+
+  #imgIconPerfil {
+    height: 25vh;
+    width: auto;
+  }
+
+  .gradeAvatares {
+    display: grid;
+    grid-column: 2;
+    margin: 3vh;
+  }
+
+  .gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
+  }
 }
 
 /* Config para celulares com largura de até 768px */
@@ -13,6 +30,23 @@
   body {
     font-size: 14px;
     padding: 20px;
+  }
+
+  #imgIconPerfil {
+    height: 25vh;
+    width: auto;
+  }
+
+  .gradeAvatares {
+    display: grid;
+    grid-column: 2;
+    margin: 3vh;
+  }
+
+  .gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
   }
 }
 
@@ -22,6 +56,23 @@
     font-size: 13px;
     padding: 15px;
   }
+
+  #imgIconPerfil {
+    height: 25vh;
+    width: auto;
+  }
+
+  .gradeAvatares {
+    display: grid;
+    grid-column: 2;
+    margin: 3vh;
+  }
+
+  .gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
+  }
 }
 
 body {
@@ -30,35 +81,45 @@ body {
     font-style: normal;
 }
 
+.separacao {
+    padding: 10vh;
+}
+
 h1 {
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
     font-size: 300%;
 }
 
-.separacao {
-    padding: 10vh;
+#imgIconPerfil {
+    height: 25vh;
+    width: auto;
 }
 
-#botaoAleatorio1 {
+.gradeAvatares {
+    display: grid;
+    grid-column: 3;
+    margin: 3vh;
+}
+
+.gradeAvatares img {
+    height: 25vh;
+    width: auto;
+    margin: 2vh;
+}
+
+.separacaoMenor {
+    padding: 2vh;
+}
+
+#botaoAleatorio {
     padding: 0;
     border: none;
     background: none;
     cursor: pointer;
 }
 
-#botaoAleatorio2 {
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-#imgDado1 {
-    width: 32px;
-    height: auto;
-}
-#imgDado2 {
+#imgDado {
     width: 32px;
     height: auto;
 }
@@ -73,8 +134,4 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-}
-
-.separacaoMenor {
-    padding: 2vh;
 }

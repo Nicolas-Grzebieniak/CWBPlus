@@ -6,6 +6,11 @@
     font-size: 16px;
     padding: 30px;
   }
+
+  #botaoContinuar {
+    width: 40vh;
+    height: auto;
+  }
 }
 
 /* Config para celulares com largura de até 768px */
@@ -14,6 +19,11 @@
     font-size: 14px;
     padding: 20px;
   }
+  
+  #botaoContinuar {
+    width: 40vh;
+    height: auto;
+  }
 }
 
 /* Config para celulares muito pequenos com largura de até 480px */
@@ -21,6 +31,11 @@
   body {
     font-size: 13px;
     padding: 15px;
+  }
+  
+  #botaoContinuar {
+    width: 40vh;
+    height: auto;
   }
 }
 
@@ -63,7 +78,7 @@ h1 {
     height: auto;
 }
 
-#botaoCriarConta {
+#botaoContinuar {
     display: inline-block;
     padding: 10px 20px;
     background-color: #6abb43;
