@@ -7,27 +7,50 @@
     <title>Denuncia</title>
 </head>
 <body>
-    <center><h1>Denuncia</h1> 
-    <input type="text" placeholder="Digite o local" id="local">
-    <br>
-    <select name="tipo" id="tipo">
-        <option>Assalto</option>
-        <option>Furto</option>
-        <option>Agressão</option>
-        <option>Assédio Sexual</option>
-        <option>Acidente de Trânsito</option>
-    </select>
-    <br>
-    <input type="date" placeholder="Data da ocorrência" id="data" max="2025-12-31">
-    <br>
-    <input type="time" placeholder="Hora da ocorrência" id="hora">
-    <br>
-    <img src="../assets/icon_descricao.png" alt="ícone de um lápis" id="icon_descricao"/>
-    <label for="descricao">Descrição</label>
-    <input type="text" placeholder="Descreva a ocorrência" name="descricao" id="descricao">
     
+    <div class="pagina-container">
 
-    </center>
-    </select>
+        <div class="denuncia-container">
+
+            <img src="../assets/icon_seta_esquerda.png" id="icon_seta_esquerda" alt="ícone de uma seta para a esquerda">
+            
+            <h1 class="denuncia-titulo">DENUNCIA</h1> 
+
+        </div>
+
+        <input type="text" placeholder="Digite o local" id="input-local">
+
+        <select name="tipo" id="tipo">
+
+            <option>Assalto</option>
+            <option>Furto</option>
+            <option>Agressão</option>
+            <option>Assédio Sexual</option>
+            <option>Acidente de Trânsito</option>
+
+        </select>
+
+        <input type="date" placeholder="Data da ocorrência" id="input-data" max="2025-12-31">
+
+        <input type="time" placeholder="Hora da ocorrência" id="input-hora">
+
+        <label for="descricao">
+            <img src="../assets/icon_descricao.png" alt="ícone de um lápis" class="icon_descricao"/>
+            Descrição
+        </label>
+
+        <textarea class="textarea-descricao" name="descricao" placeholder="Digite aqui a descrição" maxlength="800"></textarea>
+
+        <input type="file" id="input-midia" hidden>
+        <label for="midia" class="label-anexar_midia">
+            <img src="../assets/icon_clipe.png" alt="ícone de um clipe" class="icone" id="icon_clipe">
+            Anexar Mídia
+        </label>
+
+        <button class ="botao-denuncia">
+        Fazer Denúncia
+        </button>   
+
+    </div>
 </body>
 </html>

@@ -1,9 +1,88 @@
-h1 {
-    text-decoration: underline;
+body, input, button, select, textarea {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+    color: #c5c5c5;
 }
 
-flex
 
-#icon_descricao {
-    width: 3vh;
+.pagina-container {
+    display: flex;
+    height: 95vh;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    padding:5vw;
+    padding-top: 0px;
+}
+
+.denuncia-container {
+    display: flex;
+    align-items: center;
+    background-color: #c85546;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#icon_seta_esquerda {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 10vw;
+    height: 10vw;
+}
+
+.denuncia-titulo {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+
+.icon_descricao {
+    width: 2.5vw;
+    height: auto;
+}
+
+.textarea-descricao {
+
+    width: 90%; 
+    height: 150px;
+    background-color: #828c73;
+    border-radius: 10px;
+    padding: 10px;
+    color: #333;
+    font-size: 16px;
+    resize: none;
+
+}
+
+#icon_clipe {
+    width: 5vw;
+    height: auto;
+    filter: normal;
+}
+
+.label-anexar_midia {
+    background-color: #4169af;
+    color: #050a14(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-denuncia {
+    border-radius: 20px;
+    background-color: #c85546;
+    padding: 10px 20px;
+    width: 90%;
+    max-width: 400px;
+    
 }
