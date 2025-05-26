@@ -1,9 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
+/* Config para tablet com largura de até 1024px */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 30px;
+  }
+}
+
+/* Config para celulares com largura de até 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 20px;
+  }
+}
+
+/* Config para celulares muito pequenos com largura de até 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+    padding: 15px;
+  }
+}
+
 body {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 
@@ -14,7 +37,7 @@ h1 {
 }
 
 .separacao {
-    padding: 20vh;
+    padding: 10vh;
 }
 
 #botaoAleatorio1 {
