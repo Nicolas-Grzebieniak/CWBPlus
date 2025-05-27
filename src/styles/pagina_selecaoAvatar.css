@@ -76,62 +76,60 @@
 }
 
 body {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .separacao {
-    padding: 10vh;
+  padding: 10vh;
 }
 
 h1 {
-    font-family: "Poetsen One", sans-serif;
-    font-style: normal;
-    font-size: 300%;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+  font-size: 300%;
 }
 
 #imgIconPerfil {
-    height: 25vh;
-    width: auto;
+  height: 25vh;
+  width: auto;
 }
 
 .gradeAvatares {
-    display: grid;
-    grid-column: 3;
-    margin: 3vh;
+  display: grid;
+  grid-column: 3;
+  margin: 3vh;
 }
 
 .gradeAvatares img {
-    height: 25vh;
-    width: auto;
-    margin: 2vh;
+  height: 25vh;
+  width: auto;
+  margin: 2vh;
 }
 
 .separacaoMenor {
-    padding: 2vh;
+  padding: 2vh;
 }
 
 #botaoAleatorio {
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 #imgDado {
-    width: 32px;
-    height: auto;
+  width: 32px;
+  height: auto;
 }
 
 #botaoCriarConta {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #6abb43;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
+  background-color: #6abb43;
+  color: white;
+  padding: 10px 20px; /* Tamanho em volta do botão. Altura, Largura. */
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none; /* tira o underline do link */
+  cursor: pointer;
 }

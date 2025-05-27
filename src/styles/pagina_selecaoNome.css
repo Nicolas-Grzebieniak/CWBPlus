@@ -40,56 +40,58 @@
 }
 
 body {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#imgLogo {
+  width: 35vh;
+  height: auto;
 }
 
 h1 {
-    font-family: "Poetsen One", sans-serif;
-    font-style: normal;
-    font-size: 300%;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+  font-size: 300%;
 }
 
 .separacao {
-    padding: 10vh;
+  padding: 2vh;
 }
 
 #botaoAleatorio1 {
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 #botaoAleatorio2 {
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 #imgDado1 {
-    width: 32px;
-    height: auto;
+  width: 32px;
+  height: auto;
 }
 #imgDado2 {
-    width: 32px;
-    height: auto;
+  width: 32px;
+  height: auto;
 }
 
 #botaoContinuar {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #6abb43;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
+  background-color: #6abb43;
+  color: white;
+  padding: 10px 20px; /* Tamanho em volta do botão */
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none; /* tira o underline do link */
+  cursor: pointer;
 }
 
 .separacaoMenor {
-    padding: 2vh;
+  padding: 2vh;
 }
