@@ -18,38 +18,65 @@
 
         </div>
 
-        <input type="text" placeholder="Digite o local" id="input-local">
+        <div id="div-local">
 
-        <select name="tipo" id="tipo">
+            <img src="../assets/icon_pin.png" id="icon_pin">
+            <input type="text" placeholder="Digite o local" id="input-local">
+       
+        </div>
 
-            <option>Assalto</option>
-            <option>Furto</option>
-            <option>Agressão</option>
-            <option>Assédio Sexual</option>
-            <option>Acidente de Trânsito</option>
+        <div id ="div-tipo">
+            <img src="../assets/icon_gun.png" id="icon_gun">
+            <select name="tipo" id="select-tipo">
 
-        </select>
+                <option>Escolha a opção</option>
+                <option>Assalto</option>
+                <option>Furto</option>
+                <option>Agressão</option>
+                <option>Assédio Sexual</option>
+                <option>Acidente de Trânsito</option>
 
-        <input type="date" placeholder="Data da ocorrência" id="input-data" max="2025-12-31">
+            </select>
+        </div>
 
-        <input type="time" placeholder="Hora da ocorrência" id="input-hora">
+        <div id="div-data">
+            <img src="../assets/icon_calendar.png" id="icon_calendar">
+            <input type="date" placeholder="Data da ocorrência" id="input-data" max="2025-12-31">
+        </div>
 
-        <label for="descricao">
-            <img src="../assets/icon_descricao.png" alt="ícone de um lápis" class="icon_descricao"/>
-            Descrição
-        </label>
+        <div id="div-hora">
+            <img src="../assets/icon_clock.png" id="icon_clock">
+            <input type="time" placeholder="Hora da ocorrência" id="input-hora">
+        </div>
 
-        <textarea class="textarea-descricao" name="descricao" placeholder="Digite aqui a descrição" maxlength="800"></textarea>
+        <div id="div-descricao">
+        
+            <label for="descricao" id="label-descricao">
 
-        <input type="file" id="input-midia" hidden>
-        <label for="midia" class="label-anexar_midia">
-            <img src="../assets/icon_clipe.png" alt="ícone de um clipe" class="icone" id="icon_clipe">
-            Anexar Mídia
-        </label>
+                <img src="../assets/icon_pen.png" id="icon_pen"/>
+                Descrição
 
-        <button class ="botao-denuncia">
-        Fazer Denúncia
-        </button>   
+            </label>
+            <textarea class="textarea-descricao campo-grande" name="descricao" placeholder="Digite aqui a descrição" maxlength="800"></textarea>
+
+        </div>
+
+        <div id="div-midia">
+
+            <input type="file" id="input-midia" hidden>
+            
+            <label for="input-midia" class="label-anexar_midia campo-grande">
+                <img src="../assets/icon_clipe.png" alt="ícone de um clipe" class="icone" id="icon_clipe">
+                Anexar Mídia
+            </label>
+
+        </div>
+
+        <div id="div-denuncia">
+            <button class ="botao-denuncia campo-grande">
+                Fazer Denúncia
+            </button>
+        </div>
 
     </div>
 </body>
