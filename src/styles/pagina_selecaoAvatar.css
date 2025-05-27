@@ -12,13 +12,7 @@
     width: auto;
   }
 
-  .gradeAvatares {
-    display: grid;
-    grid-column: 2;
-    margin: 3vh;
-  }
-
-  .gradeAvatares img {
+  #gradeAvatares img {
     height: 25vh;
     width: auto;
     margin: 2vh;
@@ -37,13 +31,7 @@
     width: auto;
   }
 
-  .gradeAvatares {
-    display: grid;
-    grid-column: 2;
-    margin: 3vh;
-  }
-
-  .gradeAvatares img {
+  #gradeAvatares img {
     height: 25vh;
     width: auto;
     margin: 2vh;
@@ -62,16 +50,9 @@
     width: auto;
   }
 
-  .gradeAvatares {
-    display: grid;
-    grid-column: 2;
-    margin: 3vh;
-  }
-
-  .gradeAvatares img {
+  #gradeAvatares img {
     height: 25vh;
     width: auto;
-    margin: 2vh;
   }
 }
 
@@ -81,8 +62,13 @@ body {
   font-style: normal;
 }
 
+#imgLogo {
+  width: 35vh;
+  height: auto;
+}
+
 .separacao {
-  padding: 10vh;
+  padding: 2vh;
 }
 
 h1 {
@@ -96,13 +82,7 @@ h1 {
   width: auto;
 }
 
-.gradeAvatares {
-  display: grid;
-  grid-column: 3;
-  margin: 3vh;
-}
-
-.gradeAvatares img {
+#gradeAvatares img {
   height: 25vh;
   width: auto;
   margin: 2vh;
