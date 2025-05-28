@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+/* Config para tablet com largura de até 1024px */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 30px;
+  }
+  body p {
+    font-size: 20px;
+  }
+  body h5 {
+    font-size: 15px;
+  }
+  #botaoAtivar {
+    font-size: x-large;
+  }
+  #botaoDesativar {
+    font-size: x-large;
+  }
+}
+
+/* Config para celulares com largura de até 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 20px;
+  }
+  body p {
+    font-size: 20px;
+  }
+  body h5 {
+    font-size: 15px;
+  }
+  #botaoAtivar {
+    font-size: x-large;
+  }
+  #botaoDesativar {
+    font-size: x-large;
+  }
+}
+
+/* Config para celulares muito pequenos com largura de até 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+    padding: 15px;
+  }
+  body p {
+    font-size: 20px;
+  }
+  body h5 {
+    font-size: 15px;
+  }
+  #botaoAtivar {
+    font-size: x-large;
+  }
+  #botaoDesativar {
+    font-size: x-large;
+  }
+}
+
+
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+  font-size: 300%;
+}
+p {
+    font-size: 20px;
+}
+h5 {
+    font-size: 15px;
+}
+
+.separacao {
+  padding: 2vh;
+}
+.separacaoMenor {
+    padding: 2vh;
+}
+
+#imgLogo {
+    width: 35vh;
+    height: auto;
+}
+
+#botaoAtivar {
+  background-color: #6abb43;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none; /* tira o underline do link */
+  color: white;
+  padding: 10px 20px; /* Tamanho em volta do botão */
+  border-radius: 5px;
+  cursor: pointer;
+}
+#botaoDesativar {
+    background-color: #aaaaaa;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none; /* tira o underline do link */
+    padding: 10px 20px; /* Tamanho em volta do botão */
+    border-radius: 5px;
+    cursor: pointer;
+  }
