@@ -1,52 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
 .pagina-container {
-
     display: flex;
-    height: 95vh;
-    justify-content: space-around;
     flex-direction: column;
-    width: 100%;
-    padding:0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
+    gap: 15px;
+    padding: 5%;
 }
 
 .titulo-container {
-
     display: flex;
-    flex-direction: row;
-    align-content: center;
     justify-content: center;
+    align-items: center;
     background-color: gray;
     border-radius: 18px;
-    padding: 8%;
-
+    padding: 15px;
 }
 
-.titulo-container span{
+.titulo-container span {
     font-size: 24px;
+    color: white;
+    font-weight: 600;
 }
 
-.faixa1-container {
+.faixa-container {
     display: flex;
     flex-direction: column;
-    padding: 3%;
-    background-color: rgb(255, 123, 62);
-
+    padding: 15px;
+    border-radius: 12px;
+    gap: 8px;
 }
 
-.faixa1-itens {
+.faixa-titulo {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.faixa-itens {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.faixa-texto {
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    max-width: 80%;
+}
+
+.faixa-infos {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+}
+
+.faixa-roubo {
+    background-color: #FF7B3E;
+}
+
+.faixa-acidente {
+    background-color: #FFA362;
+}
+
+.faixa-agressao {
+    background-color: #C250E5;
+}
+.icone {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.sem-registros {
     display: flex;
     justify-content: center;
-}
-
-.faixa1-infos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.icone {
-    max-width: 80px;
-    max-height: 80px;
+    padding: 20px;
+    color: black;
+    font-size: 16px;
 }
