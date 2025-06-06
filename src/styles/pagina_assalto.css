@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
-    background-color: #FFA362(252, 180, 129);
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body {
 .pagina-container {
     width: 375px;
     height: 812px;
-    background-color: #FFA362;
+    background-color: #fd8070;
     border-radius: 24px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 
@@ -28,7 +28,7 @@ body {
     align-items: center;
     padding: 15px;
     position: relative;
-    background-color: #FFA362;
+    background-color: #fd8070;
     font-size: 20px;
     font-weight: bold;
     justify-content: center;
@@ -78,12 +78,6 @@ body {
     text-align: justify;
 }
 
-.foto-acidente {
-    width: 100%;
-    border-radius: 2px;
-    object-fit: cover;
-}
-
 .local-data {
     display: flex;
     flex-direction: column;
@@ -117,7 +111,7 @@ hr {
 }
 
 .vermelho {
-    color: #e64343;
+    color: #1d2e44;
 }
 
 .adicionar-comentario {

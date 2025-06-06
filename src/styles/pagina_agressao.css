@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
-    background-color: #FFA362(252, 180, 129);
+    background-color: #c877e0(252, 180, 129);
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body {
 .pagina-container {
     width: 375px;
     height: 812px;
-    background-color: #FFA362;
+    background-color: #c877e0;
     border-radius: 24px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 
@@ -28,7 +28,7 @@ body {
     align-items: center;
     padding: 15px;
     position: relative;
-    background-color: #FFA362;
+    background-color: #c877e0;
     font-size: 20px;
     font-weight: bold;
     justify-content: center;
@@ -74,14 +74,8 @@ body {
 
 .descricao {
     font-size: 14px;
-    color: #5a2d11;
+    color: #000000;
     text-align: justify;
-}
-
-.foto-acidente {
-    width: 100%;
-    border-radius: 2px;
-    object-fit: cover;
 }
 
 .local-data {
@@ -89,7 +83,7 @@ body {
     flex-direction: column;
     gap: 6px;
     font-size: 14px;
-    color: #5a2d11;
+    color: #000000;
 }
 
 .informacoes {
@@ -100,7 +94,7 @@ body {
 
 hr {
     border: none;
-    border-top: 1px solid #a04c1f;
+    border-top: 1px solid #000000;
     margin: 10px 0;
 }
 
@@ -116,10 +110,6 @@ hr {
     gap: 10px;
 }
 
-.vermelho {
-    color: #e64343;
-}
-
 .adicionar-comentario {
     border: none;
     outline: none;
@@ -133,6 +123,6 @@ hr {
 }
 
 .adicionar-comentario::placeholder {
-    color:#5a2d11;
+    color:#474747;
 }
 
