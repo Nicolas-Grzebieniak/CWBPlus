@@ -75,7 +75,7 @@ function onMapClick(e) {
     <div style="width:180px;background:#4B4B3E;border-radius:16px;padding:12px;text-align:center;color:white;font-family:Poppins,sans-serif;">
       <div style="margin-bottom:10px;font-size:14px;">O que deseja fazer?</div>
       <button id="btnRotas" style="background-color:#3b82f6;color:white;border:none;border-radius:12px;padding:6px 12px;margin-bottom:8px;width:100%;font-weight:bold;cursor:pointer;">ROTAS</button>
-      <a href="denuncia.html?lat=${lat}&lng=${lng}" style="display:inline-block;background-color:#dc2626;color:white;text-decoration:none;border-radius:12px;padding:6px 0;width:100%;font-weight:bold;">DENUNCIAR</a>
+      <a href="../pages/pagina_denuncia.html" style="display:inline-block;background-color:#dc2626;color:white;text-decoration:none;border-radius:12px;padding:6px 0;width:100%;font-weight:bold;">DENUNCIAR</a>
     </div>
   `;
 
