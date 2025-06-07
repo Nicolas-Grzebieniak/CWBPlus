@@ -45,33 +45,29 @@ body {
   font-style: normal;
 }
 
-#imgLogo {
-  width: 35vh;
-  height: auto;
-}
-
 h1 {
   font-family: "Poetsen One", sans-serif;
   font-style: normal;
   font-size: 300%;
 }
+p {
+  font-size: 20px;
+}
+h5 {
+  font-size: 15px;
+}
 
 .separacao {
   padding: 2vh;
 }
-
-#botaoAleatorio1 {
-  background: none;
-  border: none;
-  cursor: pointer;
+.separacaoMenor {
+  padding: 2vh;
 }
 
-#botaoAleatorio2 {
-  background: none;
-  border: none;
-  cursor: pointer;
+#imgLogo {
+  width: 35vh;
+  height: auto;
 }
-
 #imgDado1 {
   width: 32px;
   height: auto;
@@ -81,17 +77,24 @@ h1 {
   height: auto;
 }
 
+#botaoAleatorio1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+#botaoAleatorio2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 #botaoContinuar {
   background-color: #6abb43;
   color: white;
-  padding: 10px 20px; /* Tamanho em volta do botão */
-  border-radius: 5px;
+  font-size: x-large;
   text-align: center;
   font-weight: bold;
   text-decoration: none; /* tira o underline do link */
+  padding: 10px 20px; /* Tamanho em volta do botão */
+  border-radius: 5px;
   cursor: pointer;
-}
-
-.separacaoMenor {
-  padding: 2vh;
 }

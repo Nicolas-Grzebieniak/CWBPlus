@@ -6,12 +6,16 @@
     font-size: 16px;
     padding: 30px;
   }
-
+  body p {
+    font-size: 20px;
+  }
+  body h5 {
+    font-size: 15px;
+  }
   #imgIconPerfil {
     height: 25vh;
     width: auto;
   }
-
   #gradeAvatares img {
     height: 25vh;
     width: auto;
@@ -25,12 +29,16 @@
     font-size: 14px;
     padding: 20px;
   }
-
+  body p {
+    font-size: 20px;
+  }
+  body h5 {
+    font-size: 15px;
+  }
   #imgIconPerfil {
     height: 25vh;
     width: auto;
   }
-
   #gradeAvatares img {
     height: 25vh;
     width: auto;
@@ -44,12 +52,16 @@
     font-size: 13px;
     padding: 15px;
   }
-
+  body p {
+    font-size: 20px;
+  }
+  body h5 {
+    font-size: 15px;
+  }
   #imgIconPerfil {
     height: 25vh;
     width: auto;
   }
-
   #gradeAvatares img {
     height: 25vh;
     width: auto;
@@ -62,54 +74,58 @@ body {
   font-style: normal;
 }
 
-#imgLogo {
-  width: 35vh;
-  height: auto;
-}
-
-.separacao {
-  padding: 2vh;
-}
-
 h1 {
   font-family: "Poetsen One", sans-serif;
   font-style: normal;
   font-size: 300%;
 }
+p {
+  font-size: 20px;
+}
+h5 {
+  font-size: 15px;
+}
 
+.separacao {
+  padding: 2vh;
+}
+.separacaoMenor {
+  padding: 2vh;
+}
+
+#imgLogo {
+  width: 35vh;
+  height: auto;
+}
 #imgIconPerfil {
   height: 25vh;
   width: auto;
 }
-
 #gradeAvatares img {
   height: 25vh;
   width: auto;
   margin: 2vh;
+  cursor: pointer;
+}
+#imgDado {
+  width: 32px;
+  height: auto;
 }
 
-.separacaoMenor {
-  padding: 2vh;
-}
 
 #botaoAleatorio {
   background: none;
   border: none;
   cursor: pointer;
 }
-
-#imgDado {
-  width: 32px;
-  height: auto;
-}
-
 #botaoCriarConta {
   background-color: #6abb43;
   color: white;
-  padding: 10px 20px; /* Tamanho em volta do botão. Altura, Largura. */
-  border-radius: 5px;
+  font-size: x-large;
   text-align: center;
   font-weight: bold;
   text-decoration: none; /* tira o underline do link */
+  padding: 10px 20px; /* Tamanho em volta do botão. Altura, Largura. */
+  border-radius: 5px;
   cursor: pointer;
 }
