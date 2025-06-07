@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (min-width:431px) {
+    .pagina-container {
+        width: 100% !important;
+        max-width: 430px !important;
+        padding-left: 40% !important;
+    }   
+}
+
+.pagina-container {
+    display: flex;
+    height: 95vh;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    padding:5vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.denuncia-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c85546;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#icon_seta_esquerda {
+    position: relative;
+    top: 0px;
+    left: -65px;
+    height: 48px;
+    width: 40px;
+}
+
+.denuncia-titulo {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    position: relative;
+    left: -5px;
+}
+
+#input-local, #select-tipo, #input-data, #input-hora {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+    color: #c5c5c5;
+}
+
+#icon_pin, #icon_gun, #icon_calendar, #icon_clock, #icon_pen, #icon_clipe {
+    width: 20px;
+    height: auto;
+}
+
+#div-local, #div-tipo, #div-data, #div-hora {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#input-local, #select-tipo, #input-data, #input-hora {
+    flex: 1; /* isso aqui ocupa todo o espaço restante na linha, anotando pra lembrar*/
+}
+
+#select-tipo, #input-data, #input-hora {
+    cursor: pointer;
+}
+
+#input-local::placeholder {
+    color: #c5c5c5
+} /* muda a cor do texto do placeholder apenas */
+
+#label-descricao {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: #c5c5c5;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#div-descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.textarea-descricao {
+    width: 90%; 
+    height: 150px;
+    background-color: #828c73;
+    border-radius: 10px;
+    padding: 10px;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+}
+
+.label-anexar_midia {
+    font-family: 'Poppins', sans-serif;
+    background-color: #4169af;
+    color: #050a14(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-denuncia {
+    border-radius: 20px;
+    background-color: #c85546;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.campo-grande {
+    box-sizing:  border-box; 
+    width: 100%;
+}
+
+
+* {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}

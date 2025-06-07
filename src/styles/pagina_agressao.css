@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #c877e0(252, 180, 129);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pagina-container {
+    width: 375px;
+    height: 812px;
+    background-color: #c877e0;
+    border-radius: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+
+.topo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    background-color: #c877e0;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.icone-voltar {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+}
+
+.conteudo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nome-usuario {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.estrelas {
+    font-size: 16px;
+    color: #000;
+    margin-top: 2px;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #000000;
+    text-align: justify;
+}
+
+.local-data {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 10px 0;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.comentario {
+    display: flex;
+    gap: 10px;
+}
+
+.adicionar-comentario {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #7c2f12;
+    font-style: italic;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.adicionar-comentario::placeholder {
+    color:#474747;
+}
+
