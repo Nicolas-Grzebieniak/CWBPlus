@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+#container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#menu-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+#perfil {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#info h3 {
+  margin: 0;
+}
+
+#estrelas {
+  color: gold;
+  font-size: 18px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.detalhes {
+  background-color: #eaeaea;
+  color: #000;
+}
+
+.sair {
+  background-color: #fc9a56;
+  color: white;
+}
