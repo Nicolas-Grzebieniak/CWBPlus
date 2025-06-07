@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="../styles/pagina_selecaoNome.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção Nome</title>
+</head>
+<body>
+    <div class="separacao"></div>
+    <div><center><form>
+        <img id="imgLogo" src="../assets/CWB+grosso.png">
+        <div class="separacaoMenor"></div>
+
+        <h1>ESCOLHA UM NOME DE USUÁRIO</h1>
+        <div class="separacaoMenor"></div>
+        <h3><p>Aqui no aplicativo você é totalmente anônimo, seus dados serão criptografados.</p></h3>
+        <div id="separacaoDentro"></div>
+
+        <label for="primeiroNome">Primeiro Nome</label>
+        <input id="primeiroNome" type="text">
+        <button id="botaoAleatorio1" type="button" onclick="sortearNome('primeiroNome')">
+            <img id="imgDado1" src="../assets/icon_dado.png">
+        </button>
+        <br>
+
+        <label for="segundoNome">Segundo Nome</label>
+        <input id="segundoNome" type="text">
+        <button id="botaoAleatorio2" type="button" onclick="sortearNome('segundoNome')">
+            <img id="imgDado2" src="../assets/icon_dado.png">
+        </button>
+        <br><br><br>
+
+        <div class="separacaoMenor"></div>
+        <a id="botaoContinuar" href="../pages/pagina_selecaoAvatar.html">CONTINUAR</a>
+    </form></center></div>
+    <script src="../javascripts/pagina_selecaoNome.js"></script>
+</body>
+</html>
