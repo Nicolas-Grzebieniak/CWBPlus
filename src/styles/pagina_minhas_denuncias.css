@@ -46,9 +46,14 @@ body {
     color: white;
     font-weight: 600;
 }
+
 .titulo-container .icone {
     position: absolute;
     left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
 }
 
 .faixa-container {
