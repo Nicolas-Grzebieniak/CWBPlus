@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <style>
+       
+    </style>
+    <link rel="stylesheet" href="../styles/cadastro.css">
+</head>
+<body>
+
+    <div class="container">
+        <center>
+            <img src="../assets/CWB+grosso.png" alt="Logo CWB" id="Logo2"class="Logo2" width="250px">
+        </center>
+    
+        <h2>Criar uma conta</h2>
+        <form action="/cadastrar" method="POST">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+
+            
+            <center>
+                <button type="submit">Cadastrar</button>
+            </center>
+            
+        </form>
+    </div>
+
+</body>
+</html>
