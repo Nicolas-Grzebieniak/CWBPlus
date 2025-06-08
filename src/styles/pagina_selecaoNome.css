@@ -1,100 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* Config para tablet com largura de até 1024px */
-@media (max-width: 1024px) {
-  body {
-    font-size: 16px;
-    padding: 30px;
-  }
-
-  #botaoContinuar {
-    width: 40vh;
-    height: auto;
-  }
-}
-
-/* Config para celulares com largura de até 768px */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    padding: 20px;
-  }
-  
-  #botaoContinuar {
-    width: 40vh;
-    height: auto;
-  }
-}
-
-/* Config para celulares muito pequenos com largura de até 480px */
-@media (max-width: 480px) {
-  body {
-    font-size: 13px;
-    padding: 15px;
-  }
-  
-  #botaoContinuar {
-    width: 40vh;
-    height: auto;
-  }
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
-  font-family: "Poetsen One", sans-serif;
-  font-style: normal;
-  font-size: 300%;
-}
-p {
-  font-size: 20px;
-}
-h5 {
-  font-size: 15px;
+.container {
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding: 20px;
+    padding-top: 15vh;
 }
 
-.separacao {
-  padding: 2vh;
-}
-.separacaoMenor {
-  padding: 2vh;
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 #imgLogo {
-  width: 35vh;
-  height: auto;
-}
-#imgDado1 {
-  width: 32px;
-  height: auto;
-}
-#imgDado2 {
-  width: 32px;
-  height: auto;
+    width: 60%;
+    max-width: 200px;
+    height: auto;
 }
 
-#botaoAleatorio1 {
-  background: none;
-  border: none;
-  cursor: pointer;
+h1 {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 10px;
 }
-#botaoAleatorio2 {
-  background: none;
-  border: none;
-  cursor: pointer;
+
+p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+    padding: 0 10px;
+    color: #555;
+    font-weight: 700;
 }
+
+.campo-com-dado {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.linha-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.linha-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.linha-input button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.linha-input img {
+    width: 28px;
+    height: auto;
+}
+
+.button-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#terceiroNome {
+  max-width: 50px ;
+}
+
 #botaoContinuar {
-  background-color: #6abb43;
-  color: white;
-  font-size: x-large;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none; /* tira o underline do link */
-  padding: 10px 20px; /* Tamanho em volta do botão */
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #6abb43;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+#botaoContinuar:hover {
+    background-color: #7cd255;
+}
+

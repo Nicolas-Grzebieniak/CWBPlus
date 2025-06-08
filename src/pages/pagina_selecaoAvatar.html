@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="../styles/pagina_selecaoAvatar.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seleção Avatar</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Escolha seu Avatar</title>
+<link rel="stylesheet" href="../styles/pagina_selecaoAvatar.css"/>
 </head>
 <body>
-    <div class="separacao"></div>
-    <div><center><form>
-        <img id="imgLogo" src="../assets/CWB+grosso.png">
-        <div class="separacaoMenor"></div>
-        
-        <h1>ESCOLHA UM AVATAR</h1>
-        <h2 id="saudacaoUsuario"></h2>
+<div class="container">
+<h1>Escolha um avatar</h1>
+<div class="avatar-selecionado"></div>
 
-        <img id="imgIconPerfil" src="../assets/icon_Perfil.png">
-        <div class="separacaoMenor"></div>
-        <div id="gradeAvatares">
-            <img id="imgAvatar1" src="../assets/gradeAvatares/avatar1.png">
-            <img id="imgAvatar2" src="../assets/gradeAvatares/avatar2.png">
-            <img id="imgAvatar3" src="../assets/gradeAvatares/avatar3.png">
-            <img id="imgAvatar4" src="../assets/gradeAvatares/avatar4.png">
-            <img id="imgAvatar5" src="../assets/gradeAvatares/avatar5.png">
-            <img id="imgAvatar6" src="../assets/gradeAvatares/avatar6.png">
-        </div>
+<div class="grade-avatares">
+    <img src="../assets/avatar_1.png" class="avatar" onclick="selecionarAvatar(this)">
+    <img src="../assets/avatar_2.png" class="avatar" onclick="selecionarAvatar(this)">
+    <img src="../assets/avatar_3.png" class="avatar" onclick="selecionarAvatar(this)">
+    <img src="../assets/avatar_4.png" class="avatar" onclick="selecionarAvatar(this)">
+    <img src="../assets/avatar_5.png" class="avatar" onclick="selecionarAvatar(this)">
+    <img src="../assets/avatar_6.png" class="avatar" onclick="selecionarAvatar(this)">
+</div>
 
-        <div class="separacaoMenor"></div>
-        <button id="botaoAleatorio" type="button" onclick="sortearNome('imgAvatar')">
-            <img id="imgDado" src="../assets/icon_dado.png">
-        </button>
+<a class="botao-continuar" href="pagina_ativarNotificacao.html">Continuar</a>
 
-        <div class="separacaoMenor"></div>
-        <a id="botaoCriarConta" href="../pages/pagina_ativarNotificacao.html">CRIAR CONTA</a>
+</div>
+</div>
 
-    </form></center></div>
-    <script src="../javascripts/pagina_selecaoAvatar.js"></script>
+
+<script src="../javascripts/pagina_selecaoAvatar.js"></script>
 </body>
 </html>

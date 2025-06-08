@@ -1,116 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-/* Config para tablet com largura de até 1024px */
-@media (max-width: 1024px) {
-  body {
-    font-size: 16px;
-    padding: 30px;
-  }
-  body p {
-    font-size: 20px;
-  }
-  body h5 {
-    font-size: 15px;
-  }
-  #botaoAtivar {
-    font-size: x-large;
-  }
-  #botaoDesativar {
-    font-size: x-large;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-
-/* Config para celulares com largura de até 768px */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    padding: 20px;
-  }
-  body p {
-    font-size: 20px;
-  }
-  body h5 {
-    font-size: 15px;
-  }
-  #botaoAtivar {
-    font-size: x-large;
-  }
-  #botaoDesativar {
-    font-size: x-large;
-  }
-}
-
-/* Config para celulares muito pequenos com largura de até 480px */
-@media (max-width: 480px) {
-  body {
-    font-size: 13px;
-    padding: 15px;
-  }
-  body p {
-    font-size: 20px;
-  }
-  body h5 {
-    font-size: 15px;
-  }
-  #botaoAtivar {
-    font-size: x-large;
-  }
-  #botaoDesativar {
-    font-size: x-large;
-  }
-}
-
-
 
 body {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  background-color: white;
+  padding: 40px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 5%;
 }
 
 h1 {
-  font-family: "Poetsen One", sans-serif;
-  font-style: normal;
-  font-size: 300%;
-}
-p {
-    font-size: 20px;
-}
-h5 {
-    font-size: 15px;
+  font-size: 36x;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #000;
 }
 
-.separacao {
-  padding: 2vh;
-}
-.separacaoMenor {
-    padding: 2vh;
-}
-
-#imgLogo {
-    width: 35vh;
-    height: auto;
+.descricao {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 50px;
+  line-height: 1.6;
 }
 
-#botaoAtivar {
-  background-color: #6abb43;
-  font-size: x-large;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none; /* tira o underline do link */
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btn-ativar {
+  background-color: #679b67;
   color: white;
-  padding: 10px 20px; /* Tamanho em volta do botão */
-  border-radius: 5px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
 }
-#botaoDesativar {
-    background-color: #aaaaaa;
-    color: white;
-    font-size: x-large;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none; /* tira o underline do link */
-    padding: 10px 20px; /* Tamanho em volta do botão */
-    border-radius: 5px;
-    cursor: pointer;
-  }
+
+.btn-desativar {
+  background-color: #cfd3cb;
+  color: black;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.info {
+  font-size: 12px;
+  color: #333;
+  margin-top: 4px;
+}

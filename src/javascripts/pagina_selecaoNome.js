@@ -1,6 +1,6 @@
 const nomesPrimeiro = [
-    "Alice", "Bruno", "Carla", "Daniel", "Eduarda", "Felipe",
-    "Giovana", "Henrique", "Isabela", "João", "Karla", "Leonardo"
+    "Pipoca", "Alecrim", "Rabanete", "Pequeno", "Grande", "Magnífico",
+    "Livro", "Caderno", "Jogador", "Anime", "Minúsculo", "Cadeira"
   ];
 
   const nomesSegundo = [
@@ -18,3 +18,8 @@ const nomesPrimeiro = [
     const nome = document.getElementById("nomeUsuario").value;
     localStorage.setItem("nomeDoUsuario", nome);
     }
+
+  function gerarNumeroAleatorio(idInput) {
+    const numero = Math.floor(Math.random() * 90) + 10;
+    document.getElementById(idInput).value = numero;
+}

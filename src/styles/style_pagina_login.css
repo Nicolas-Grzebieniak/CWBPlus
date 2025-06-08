@@ -1,4 +1,6 @@
 /* Reset básico */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,19 +17,24 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 400px;
-  padding: 40px 30px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+    padding-top: 100px
+    }
 
 /* Logo */
 .logo {
-  width: 200px;
+  width: 30vh;
   margin-bottom: 30px;
+  padding-left: 8px;
 }
 
 /* Título */
