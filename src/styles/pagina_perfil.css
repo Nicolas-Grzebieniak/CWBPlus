@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
-#container {
-  width: 375px;
-  height: 812px;
-
-  margin: 0 auto;
-  padding: 20px;
+.container {
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
 }
 
 #menu-icon {
@@ -35,30 +43,68 @@ h2 {
 
 #info h3 {
   margin: 0;
+  font-size: 16px;
 }
 
 #estrelas {
   color: gold;
   font-size: 18px;
+  margin: 2px 0;
+}
+
+#email {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.denuncias h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.denuncias p {
+  margin: 5px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .btn {
   display: block;
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   margin-top: 10px;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
 }
 
-.detalhes {
+.neutro {
   background-color: #eaeaea;
   color: #000;
+  font-weight: 500;
+}
+
+.emergencia {
+  background-color: #d64d36;
+  color: white;
+  font-weight: bold;
 }
 
 .sair {
   background-color: #fc9a56;
   color: white;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+}
+
+a .btn {
+  font-family: 'Poppins', sans-serif;
 }

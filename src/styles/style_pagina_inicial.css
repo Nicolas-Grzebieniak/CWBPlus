@@ -1,7 +1,20 @@
 body, html {
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+}
+.pagina {
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
 }
 
 #map {
@@ -67,3 +80,13 @@ body, html {
   font-weight: 600;
   margin-left: 20px;
 }
+
+/* #quadrado-branco-menu {
+  top: 0;
+  left: 0; 
+  width: 250px; 
+  height: 110%; 
+  background-color: white; 
+  z-index: 1001;
+
+} */
