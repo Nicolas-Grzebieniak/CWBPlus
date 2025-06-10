@@ -30,20 +30,17 @@ body {
     padding-top: 100px
     }
 
-/* Logo */
 .logo {
   width: 30vh;
   margin-bottom: 30px;
   padding-left: 8px;
 }
 
-/* Título */
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-/* Campos de entrada */
 .input-group {
   position: relative;
   margin-bottom: 20px;
@@ -67,8 +64,7 @@ h1 {
   color: #777;
 }
 
-/* Esqueci a senha */
-.forgot {
+.esqueceu {
   text-align: right;
   font-size: 12px;
   margin-top: -15px;
@@ -77,7 +73,6 @@ h1 {
   cursor: pointer;
 }
 
-/* Botão Acessar */
 .button {
   width: 100%;
   padding: 12px;
@@ -87,18 +82,17 @@ h1 {
   border-radius: 6px;
   cursor: pointer;
   margin-bottom: 15px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
 }
 
-/* Ou */
-.or {
+
+.ou {
   margin: 10px 0;
   color: #999;
   font-size: 12px;
 }
 
-/* Botão Google */
 .google-button {
   width: 100%;
   padding: 10px;
@@ -114,13 +108,12 @@ h1 {
   margin-bottom: 15px;
 }
 
-/* Cadastro */
-.signup {
+.cadastrar {
   font-size: 12px;
   color: #444;
 }
 
-.signup a {
+.cadastrar a {
   color: #000;
   font-weight: bold;
   text-decoration: none;

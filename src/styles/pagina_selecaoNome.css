@@ -105,10 +105,10 @@ p {
 
 #botaoContinuar {
     background-color: #679b67;
-    color: black;
+    color: white;
     font-size: 18px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 8px;
