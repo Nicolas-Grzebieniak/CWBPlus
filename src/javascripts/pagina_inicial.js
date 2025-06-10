@@ -110,3 +110,30 @@ function onMapClick(e) {
 }
 
 map.on('click', onMapClick);
+
+function adicionarMarcadorDenuncia(denuncia) {
+  const { lat, lng, tipo, descricao, data, hora } = denuncia;
+
+  if (!lat || !lng) return;
+
+  const latitude = parseFloat(lat);
+  const longitude = parseFloat(lng);
+
+  if (isNaN(latitude) || isNaN(longitude)) return;
+
+  const popupContent = `
+    <div style="font-family:Poppins,sans-serif;max-width:200px">
+      <b>Tipo:</b> ${tipo}<br>
+      <b>Data:</b> ${data}<br>
+      <b>Hora:</b> ${hora}<br>
+      <b>Descrição:</b><br>${descricao}
+    </div>
+  `;
+
+  L.marker([latitude, longitude])
+    .addTo(map)
+    .bindPopup(popupContent);
+}
+
+
+
