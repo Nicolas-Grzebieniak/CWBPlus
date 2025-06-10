@@ -2,31 +2,27 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #fff;
-  display: flex;
-  justify-content: center;
 }
 
-.container {
-    width: 375px;
-    height: 812px;
-    background-color: white;
-    border-radius: 24px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+#container {
+  width: 375px;
+  height: 812px;
+
+  margin: 0 auto;
+  padding: 20px;
 }
 
-#menu-icon {
-  font-size: 24px;
-  margin-bottom: 10px;
+#iconSetaEsquerda {
+  width: 30px;
+  height: auto;
+  padding-right: 30px;
 }
-
-h2 {
-  margin-bottom: 15px;
+#iconAvatar {
+  width: 90px;
+  height: auto;
+  padding-left: 15px;
 }
 
 #perfil {
@@ -43,68 +39,36 @@ h2 {
 
 #info h3 {
   margin: 0;
-  font-size: 16px;
 }
-
 #estrelas {
   color: gold;
   font-size: 18px;
-  margin: 2px 0;
 }
 
-#email {
-  font-size: 14px;
-  color: #666;
-  margin: 0;
+#separacao {
+  height: 25%;
+  width: auto;
+}
+#separacaoMenor {
+  height: 5%;
+  width: auto;
 }
 
-.denuncias h3 {
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-
-.denuncias p {
-  margin: 5px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.btn {
-  display: block;
+#botaoDetalhes {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   margin-top: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
 }
 
-.neutro {
+.detalhes {
   background-color: #eaeaea;
   color: #000;
-  font-weight: 500;
 }
-
-.emergencia {
-  background-color: #d64d36;
+#botaoSair {
+  width: 100%;
   color: white;
-  font-weight: bold;
-}
-
-.sair {
-  background-color: #fc9a56;
-  color: white;
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  display: block;
-}
-
-a .btn {
-  font-family: 'Poppins', sans-serif;
 }
