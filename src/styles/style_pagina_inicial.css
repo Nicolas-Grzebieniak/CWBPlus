@@ -81,12 +81,20 @@ body, html {
   margin-left: 20px;
 }
 
-/* #quadrado-branco-menu {
+#quadrado-branco-menu {
+  position: fixed; 
   top: 0;
-  left: 0; 
+  left: 0;
   width: 250px; 
-  height: 110%; 
-  background-color: white; 
-  z-index: 1001;
+  height: 100vh;
+  background-color: white;
+  z-index: 1001; 
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  opacity: 1;
+}
 
-} */
+#side-menu.active + #quadrado-branco-menu,
+#quadrado-branco-menu.hidden {
+  opacity: 0;
+}
