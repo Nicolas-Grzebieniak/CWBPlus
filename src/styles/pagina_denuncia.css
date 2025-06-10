@@ -1,31 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media (min-width:431px) {
-    .pagina-container {
-        width: 100% !important;
-        max-width: 430px !important;
-        padding-left: 40% !important;
-    }   
+body {
+    background-color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .pagina-container {
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
     display: flex;
-    height: 95vh;
-    justify-content: space-around;
     flex-direction: column;
-    width: 90%;
-    padding:5vw;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    gap: 40px;
+    padding: 20px;
+
 }
 
 .denuncia-container {
+
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #c85546;
+    background-color: #ad363a;
     border-radius: 20px;
-    padding: 5px;
+    padding: 0px;
 }
 
 #icon_seta_esquerda {
@@ -93,7 +99,7 @@
 .textarea-descricao {
     width: 90%; 
     height: 150px;
-    background-color: #828c73;
+    background-color: #909e7b;
     border-radius: 10px;
     padding: 10px;
     color: #333;
@@ -104,7 +110,7 @@
 
 .label-anexar_midia {
     font-family: 'Poppins', sans-serif;
-    background-color: #4169af;
+    background-color: #1d54b4;
     color: #050a14(0, 0, 0);
     border-radius: 20px;
     padding: 10px;
@@ -118,7 +124,7 @@
 
 .botao-denuncia {
     border-radius: 20px;
-    background-color: #c85546;
+    background-color: #ad363a;
     padding: 10px;
     border: none;
     cursor: pointer;

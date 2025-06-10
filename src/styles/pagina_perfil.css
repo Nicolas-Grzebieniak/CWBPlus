@@ -103,13 +103,22 @@ hr {
 }
 
 .emergencia {
-  background-color: #d64d36;
+  background-color: #af0006;
   color: white;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .sair {
-  background-color: #fc9a56;
+  background-color: #679b67;
   color: white;
-  font-weight: bold;
+  font-weight: 400;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+}
+
+.seta {
+  width: 28px;
+  height: 28px;
 }

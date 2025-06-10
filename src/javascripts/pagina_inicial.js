@@ -1,6 +1,8 @@
 function toggleMenu() {
   const menu = document.getElementById('side-menu');
+  const quadrado = document.getElementById('quadrado-branco-menu');
   menu.classList.toggle('active');
+  quadrado.classList.toggle('hidden');
 }
 
 const map = L.map('map').setView([-25.450, -49.230], 17);
@@ -8,6 +10,61 @@ const map = L.map('map').setView([-25.450, -49.230], 17);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap'
 }).addTo(map);
+
+const iconesPorTipo = {
+  'Roubo': L.icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41]
+  }),
+  'Agressão': L.icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41]
+  }),
+  'Acidente': L.icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41]
+  })
+};
+
+// Lista de denúncias iniciais
+const denunciasIniciais = [
+  {
+    lat: -25.4501,
+    lng: -49.2299,
+    tipo: 'Roubo',
+    descricao: 'Assalto à mão armada em frente ao mercado.',
+    data: '2025-06-08',
+    hora: '14:30'
+  },
+  {
+    lat: -25.4512,
+    lng: -49.2315,
+    tipo: 'Agressão',
+    descricao: 'Briga de rua com ferimentos leves.',
+    data: '2025-06-07',
+    hora: '20:45'
+  },
+  {
+    lat: -25.4520,
+    lng: -49.2287,
+    tipo: 'Acidente',
+    descricao: 'Colisão entre carro e moto.',
+    data: '2025-06-06',
+    hora: '09:15'
+  }
+];
 
 let currentMarker = null;
 let userLocation = null;
@@ -26,6 +83,8 @@ function calcularMediaPosicoes(positions) {
 }
 
 map.locate({ setView: true, maxZoom: 17, enableHighAccuracy: true, timeout: 10000, maximumAge: 0 });
+
+denunciasIniciais.forEach(adicionarMarcadorDenuncia);
 
 map.on('locationfound', (e) => {
   lastPositions.push(e.latlng);
@@ -130,10 +189,10 @@ function adicionarMarcadorDenuncia(denuncia) {
     </div>
   `;
 
-  L.marker([latitude, longitude])
+  L.marker([latitude, longitude], {
+    icon: iconesPorTipo[tipo] || undefined
+  })
     .addTo(map)
     .bindPopup(popupContent);
 }
-
-
 
