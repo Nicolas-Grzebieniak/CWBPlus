@@ -159,6 +159,20 @@ body {
     border-radius: 34px;
 }
 
+.icone-voltar-img {
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+.icone-seta-direita {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
 .controle-deslizante:before {
     position: absolute;
     content: "";

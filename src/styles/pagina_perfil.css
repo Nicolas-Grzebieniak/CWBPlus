@@ -1,88 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: "Poppins", sans-serif;
 }
-#tamanhoPagina {
+
+
+#container {
   width: 375px;
   height: 812px;
-  background-color: white;
-  border-radius: 24px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  padding: 25px 20px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  padding: 15px;
-  padding-top: 100px
+  gap: 15px;
+  box-sizing: border-box;
 }
 
-#grade {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-right: 110px;
-}
-.colunaVoltar {
-  padding: 20px;
+#menu-icon {
+  font-size: 24px;
+  cursor: pointer;
 }
 
-#iconSetaEsquerda {
-  width: 30px;
-  height: auto;
-  padding-right: 30px;
-}
-#iconAvatar {
-  width: 90px;
-  height: auto;
-  padding-left: 15px;
+h2 {
+  margin: 0;
+  font-size: 22px;
 }
 
 #perfil {
   display: flex;
   align-items: center;
   gap: 15px;
-  text-align: left;
-  line-height: 0.5;
 }
+
+#avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+#info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
+
 #estrelas {
   color: gold;
-  font-size: 30px;
+  font-size: 18px;
+  margin: 2px 0;
 }
 
-#separacao {
-  height: 25%;
-  width: auto;
-}
-#separacaoMenor {
-  height: 5%;
-  width: auto;
+#email {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
 }
 
-#botaoDetalhes {
+.denuncias h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000;
+}
+
+.denuncias p {
+  margin: 5px 0;
+  color: #777;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0 10px;
+}
+
+.btn {
   width: 100%;
-  color: black;
-  font-size: medium;
-  border: 1px;
-  border-radius: 10%;
-  background-color: lightgrey;
-  padding: 10px;
-  text-decoration: none;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
   cursor: pointer;
-  line-height: 1.4;
-  box-sizing: border-box;
+  transition: 0.3s ease;
 }
-#botaoSair {
-  width: 100%;
+
+.detalhes,
+.config {
+  background-color: #e5e8e2;
+  color: #333;
+}
+
+.emergencia {
+  background-color: #d64d36;
   color: white;
-  font-size: medium;
-  border: 5px;
-  border-radius: 10%;
-  background-color: rgb(207, 44, 44);
-  padding: 10px;
-  text-decoration: none;
-  cursor: pointer;
-  line-height: 1.4;
-  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.sair {
+  background-color: #fc9a56;
+  color: white;
+  font-weight: bold;
 }
